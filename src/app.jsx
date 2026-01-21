@@ -46,13 +46,13 @@ useEffect(() => {
     <div className="flex justify-end mb-4">
       <ThemeButton />
     </div>
-    <Card imageSrc='./src/abc.jpg'/>
+    <Card imageSrc='./src/assets/abc.jpg'/>
     <br/>
     <br/>
-    <Card imageSrc='./src/def.png'/>
+    <Card imageSrc='./src/assets/def.png'/>
     <br/>
     <br/>
-    <Card imageSrc='./src/abc.jpg'/>
+    <Card imageSrc='./src/assets/abc.jpg'/>
   </div>
 </div>
 
