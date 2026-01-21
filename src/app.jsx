@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import React from 'react'
 import './app.css'
-import watchImg from "../src/abc.jpg";
 
 import Card from './component/card'
 import ThemeButton from './component/Themebutton'
