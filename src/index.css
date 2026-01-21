@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  /* Always the same off-white modern gradient */
+  background:
+    radial-gradient(900px 600px at 15% 10%, rgba(56, 189, 248, 0.28), transparent 55%),
+    radial-gradient(800px 520px at 85% 20%, rgba(99, 102, 241, 0.20), transparent 60%),
+    radial-gradient(900px 700px at 35% 100%, rgba(236, 72, 153, 0.10), transparent 60%),
+    linear-gradient(180deg, #fbfdff 0%, #f2f7ff 55%, #f8fafc 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Liquid glass base */
+.glass-card {
+  background: rgba(255, 255, 255, 0.60);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow:
+    0 18px 60px rgba(15, 23, 42, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-radius: 18px;
+}
+
+/* Dark-card mode ONLY (doesn't change page background) */
+.glass-card-dark {
+  background: rgba(10, 20, 40, 0.62);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow:
+    0 24px 80px rgba(0, 0, 0, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+/* Normal card boundary + shadow */
+.card-boundary {
+  border: 1px solid rgba(15, 23, 42, 0.12); /* slate-ish border */
+  box-shadow: 0 12px 40px rgba(15, 23, 42, 0.10);
+}
+
+/* Dark-card boundary (only card, not whole UI) */
+.card-boundary-dark {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.22);
+}
+body{
+  margin:0;
+  min-height:100vh;
+  background:
+    radial-gradient(900px 600px at 15% 10%, rgba(56, 189, 248, 0.28), transparent 55%),
+    radial-gradient(800px 520px at 85% 20%, rgba(99, 102, 241, 0.20), transparent 60%),
+    radial-gradient(900px 700px at 35% 100%, rgba(236, 72, 153, 0.10), transparent 60%),
+    linear-gradient(180deg, #fbfdff 0%, #f2f7ff 55%, #f8fafc 100%);
+}
