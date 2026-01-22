@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import React from 'react'
 import './app.css'
+import abcImg from "./assets/abc.jpg";
+import defImg from "./assets/def.png";
 
 import Card from './component/card'
 import ThemeButton from './component/Themebutton'
@@ -45,13 +47,13 @@ useEffect(() => {
     <div className="flex justify-end mb-4">
       <ThemeButton />
     </div>
-    <Card imageSrc='./src/assets/abc.jpg'/>
+    <Card imageSrc={abcImg} />
     <br/>
     <br/>
-    <Card imageSrc='./src/assets/def.png'/>
+    <Card imageSrc={defImg} />
     <br/>
     <br/>
-    <Card imageSrc='./src/assets/abc.jpg'/>
+    <Card imageSrc={abcImg} />
   </div>
 </div>
 

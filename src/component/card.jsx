@@ -1,6 +1,7 @@
 import React from "react";
 import useTheme from "../context/theme";
 
+
 export default function Card({
   imageSrc = "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1400&q=80",
   title = "Xiaomi watch S4 GPS 1.78 inch AMOLED Display",
